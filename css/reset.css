@@ -1,0 +1,57 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : Wufoo CSS Reset
+ Author : Kai Zau
+ URL : http://kaizau.com
+
+ Last Updated : April 25, 2013
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* Logo */
+#logo a {
+  background-image: inherit;
+  min-height: inherit;
+  height: inherit;
+}
+
+/* Backgrounds */
+html, #logo,
+#container,
+.wufoo input.text, .wufoo textarea.textarea,
+.wufoo .instruct,
+form li.focused {
+  background: inherit;
+}
+
+/* Borders */
+#container,
+.wufoo .info, 
+.wufoo .instruct {
+  border: inherit;
+}
+
+/* Typography */
+.wufoo .info h2,
+.wufoo .info div,
+.wufoo .section h3,
+.wufoo .section div,
+.wufoo label.desc, .wufoo legend.desc,
+.wufoo li div, .wufoo li div label, .wufoo li span label,
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice, 
+.wufoo label.choice,
+.wufoo .instruct {
+  background: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+/* Drop Shadows */
+#container {
+  -webkit-box-shadow: inherit;
+  -moz-box-shadow: inherit;
+  -o-box-shadow: inherit;
+  box-shadow: inherit;
+}
+
