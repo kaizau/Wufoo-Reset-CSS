@@ -32,6 +32,8 @@ form li.focused {
 }
 
 /* Typography */
+body,
+.wufoo,
 .wufoo .info h2,
 .wufoo .info div,
 .wufoo .section h3,
